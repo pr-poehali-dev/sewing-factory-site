@@ -49,11 +49,13 @@ export default function Index() {
         </div>
       </header>
 
-      <section className="relative bg-gradient-to-br from-secondary via-secondary/90 to-secondary/80 text-white py-24 md:py-32 overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 left-0 w-96 h-96 bg-primary rounded-full blur-3xl mx-[33px] my-[5px] px-[22px] py-[70px]"></div>
-          <div className="absolute bottom-0 right-0 w-96 h-96 bg-primary rounded-full blur-3xl"></div>
-        </div>
+      <section className="relative text-white py-24 md:py-32 overflow-hidden" style={{
+        backgroundImage: 'url(https://cdn.poehali.dev/files/6c9b4166-bd1c-49fa-8062-26292f134a56.PNG)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}>
+        <div className="absolute inset-0 bg-primary/40"></div>
         <div className="container relative z-10 px-5 mx-0 my-0 py-0 bg-transparent">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
             <div className="inline-block mb-6 py-2 bg-primary/20 border border-primary/30 px-4 rounded-md">
