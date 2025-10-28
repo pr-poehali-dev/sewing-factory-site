@@ -27,7 +27,7 @@ export default function Index() {
       <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 bg-primary rounded-sm flex items-center justify-center">
+            <div className="w-12 h-12 bg-primary rounded-sm flex items-center justify-center mx-4 px-[37px]">
               <span className="text-2xl font-bold text-primary-foreground">КШФ</span>
             </div>
             <div>
