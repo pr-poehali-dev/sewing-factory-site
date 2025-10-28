@@ -35,14 +35,14 @@ export default function Index() {
               <p className="text-xs text-muted-foreground uppercase">С 1941 года</p>
             </div>
           </div>
-          <nav className="hidden md:flex gap-6">
+          <nav className="hidden md:flex gap-6 uppercase">
             <a href="#about" className="text-sm hover:text-primary transition-colors">О фабрике</a>
             <a href="#services" className="text-sm hover:text-primary transition-colors">Услуги</a>
             <a href="#portfolio" className="text-sm hover:text-primary transition-colors">Портфолио</a>
             <a href="#faq" className="text-sm hover:text-primary transition-colors">FAQ</a>
             <a href="#contacts" className="text-sm hover:text-primary transition-colors">Контакты</a>
           </nav>
-          <Button className="hidden md:inline-flex">
+          <Button className="hidden md:inline-flex uppercase">
             <Icon name="Phone" size={16} className="mr-2" />
             Связаться
           </Button>
