@@ -208,12 +208,18 @@ export default function Index() {
         </div>
       </section>
 
-      <section id="services" className="py-20 bg-muted/30">
-        <div className="container mx-auto px-4">
+      <section id="services" className="relative py-20 overflow-hidden" style={{
+        backgroundImage: 'url(https://cdn.poehali.dev/files/11aebbf0-0178-41fe-a3df-11d5c0edaf1b.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}>
+        <div className="absolute inset-0 bg-black/70"></div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-5xl font-bold mb-4 text-foreground">Наши услуги</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white">Наши услуги</h2>
             <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
-            <p className="text-lg text-muted-foreground">Полный спектр швейных услуг для вашего бизнеса</p>
+            <p className="text-lg text-white/80">Полный спектр швейных услуг для вашего бизнеса</p>
           </div>
           <div className="max-w-5xl mx-auto">
             <div className="grid md:grid-cols-2 gap-6 mb-12">
@@ -543,8 +549,14 @@ export default function Index() {
         </div>
       </section>
 
-      <footer className="bg-secondary text-white py-12">
-        <div className="container mx-auto px-4">
+      <footer className="relative text-white py-12 overflow-hidden" style={{
+        backgroundImage: 'url(https://cdn.poehali.dev/files/11aebbf0-0178-41fe-a3df-11d5c0edaf1b.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}>
+        <div className="absolute inset-0 bg-black/80"></div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-3 mb-4">
