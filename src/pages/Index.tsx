@@ -50,12 +50,12 @@ export default function Index() {
       </header>
 
       <section className="relative text-white py-24 md:py-32 overflow-hidden" style={{
-        backgroundImage: 'url(https://cdn.poehali.dev/files/6c9b4166-bd1c-49fa-8062-26292f134a56.PNG)',
+        backgroundImage: 'url(https://cdn.poehali.dev/files/11aebbf0-0178-41fe-a3df-11d5c0edaf1b.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
       }}>
-        <div className="absolute inset-0 bg-primary/40"></div>
+        <div className="absolute inset-0 bg-black/50"></div>
         <div className="container relative z-10 px-5 mx-0 my-0 py-0 bg-transparent">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
             <div className="inline-block mb-6 py-2 bg-primary/20 border border-primary/30 px-4 rounded-md">
