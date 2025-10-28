@@ -31,8 +31,8 @@ export default function Index() {
               <span className="text-2xl font-bold text-primary-foreground">КШФ</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground">Кузнецкая Швейная Фабрика</h1>
-              <p className="text-xs text-muted-foreground">С 1941 года</p>
+              <h1 className="text-xl font-bold text-foreground uppercase">Кузнецкая Швейная Фабрика</h1>
+              <p className="text-xs text-muted-foreground uppercase">С 1941 года</p>
             </div>
           </div>
           <nav className="hidden md:flex gap-6">
