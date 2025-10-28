@@ -54,7 +54,7 @@ export default function Index() {
           <div className="absolute top-0 left-0 w-96 h-96 bg-primary rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-primary rounded-full blur-3xl"></div>
         </div>
-        <div className="container relative z-10 px-5 mx-0 my-0 py-0 bg-[#000000]">
+        <div className="container relative z-10 px-5 mx-0 my-0 py-0 bg-transparent">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
             <div className="inline-block mb-6 py-2 bg-primary/20 border border-primary/30 px-4 rounded-md">
               <span className="text-sm font-medium">Производство полного цикла с 1941 года</span>
