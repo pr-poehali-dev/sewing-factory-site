@@ -51,7 +51,7 @@ export default function Index() {
 
       <section className="relative bg-gradient-to-br from-secondary via-secondary/90 to-secondary/80 text-white py-24 md:py-32 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 left-0 w-96 h-96 bg-primary rounded-full blur-3xl"></div>
+          <div className="absolute top-0 left-0 w-96 h-96 bg-primary rounded-full blur-3xl mx-[33px] my-[5px] px-[22px] py-[70px]"></div>
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-primary rounded-full blur-3xl"></div>
         </div>
         <div className="container relative z-10 px-5 mx-0 my-0 py-0 bg-transparent">
