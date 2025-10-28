@@ -56,8 +56,8 @@ export default function Index() {
         backgroundRepeat: 'no-repeat'
       }}>
         <div className="absolute inset-0 bg-black/50"></div>
-        <div className="container relative z-10 my-0 py-0 bg-transparent px-0 mx-[395px]">
-          <div className="max-w-4xl mx-auto text-center animate-fade-in">
+        <div className="container relative z-10 my-0 py-0 bg-transparent px-0 mx-[215px]">
+          <div className="max-w-4xl text-center animate-fade-in px-0 mx-[30px]">
             <div className="inline-block mb-6 py-2 bg-primary/20 border border-primary/30 px-4 rounded-md">
               <span className="text-sm font-medium">Производство полного цикла с 1941 года</span>
             </div>
