@@ -70,7 +70,7 @@ export default function Index() {
                 <Icon name="Send" size={20} className="mr-2" />
                 Отправить техзадание
               </Button>
-              <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-secondary text-lg px-8 py-6">
+              <Button size="lg" className="bg-[#8B1A1A] hover:bg-[#6B1414] text-white text-lg px-8 py-6">
                 <Icon name="Phone" size={20} className="mr-2" />
                 Позвонить
               </Button>
