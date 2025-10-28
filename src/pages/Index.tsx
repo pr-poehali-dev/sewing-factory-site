@@ -560,7 +560,7 @@ export default function Index() {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 bg-primary rounded-sm flex items-center justify-center">
+                <div className="w-12 h-12 bg-primary rounded-sm flex items-center justify-center px-[35px]">
                   <span className="text-2xl font-bold">КШФ</span>
                 </div>
                 <div>
